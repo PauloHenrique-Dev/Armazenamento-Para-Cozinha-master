@@ -1,0 +1,291 @@
+body {
+    background-image: linear-gradient(to top, #36BBA5, #fff);
+    background-attachment: fixed;
+}
+
+
+/*Layoff.control*/
+
+#img1 {
+    margin-left: 32%;
+    margin-top: 7%;
+    position: absolute;
+    height: auto;
+    max-width: 100%;
+}
+
+
+/*Casinha*/
+
+#img2 {
+    position: absolute;
+    left: 37%;
+    top: 64%;
+    margin-left: 110px;
+    margin-top: -40px;
+}
+
+
+/*Marista*/
+
+#img3 {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 7%;
+}
+
+
+/* key frame animation - Casinha*/
+
+#img2:hover {
+    animation: img2-animation 1s ease-out forwards;
+}
+
+@keyframes img2-animation {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/*key frame fecha*/
+
+
+/* responsive */
+
+
+/*parte 1 responsive*/
+
+@media screen and (max-width: 1200px) {
+    body {
+        background-repeat: no-repeat, no-repeat;
+        background-position: 50% 10px, 50% 20%;
+        background-size: 100%, 50%;
+    }
+
+    #img1 {
+        margin-left: 30%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 8%;
+        height: 1%;
+        width: auto;
+        height: 250px;
+    }
+
+    #img2 {
+        position: absolute;
+        left: 35%;
+        top: 64%;
+        margin-left: 110px;
+        margin-top: -40px;
+    }
+
+    #img3 {
+        position: static;
+        left: 37%;
+        top: 64%;
+        margin-left: 25px;
+        margin-top: 507px;
+        width: 8%;
+    }
+}
+
+
+/*parte 2 responsive*/
+
+@media screen and (max-width: 1100px) {
+    body {
+        background-repeat: no-repeat, no-repeat;
+        background-position: 50% 10px, 50% 20%;
+        background-size: 100%, 50%;
+    }
+
+    #img1 {
+        margin-left: 28%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 8%;
+        height: 1%;
+        width: auto;
+        height: 250px;
+    }
+
+    #img2 {
+        position: absolute;
+        left: 34%;
+        top: 64%;
+        margin-left: 110px;
+        margin-top: -40px;
+    }
+
+    #img3 {
+        position: static;
+        left: 37%;
+        top: 64%;
+        margin-left: 25px;
+        margin-top: 507px;
+        width: 9%;
+    }
+}
+
+
+/*parte 3 responsive*/
+
+@media screen and (max-width: 800px) {
+    body {
+        background-repeat: no-repeat, no-repeat;
+        background-position: 50% 10px, 50% 20%;
+        background-size: 100%, 50%;
+    }
+
+    #img1 {
+        margin-left: 20%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 10%;
+        height: 10%;
+        width: auto;
+        height: 250px;
+    }
+
+    #img2 {
+        position: absolute;
+        left: 28%;
+        top: 64%;
+        margin-left: 110px;
+        margin-top: -40px;
+    }
+
+    #img3 {
+        position: static;
+        left: 37%;
+        top: 64%;
+        margin-left: 25px;
+        margin-top: 507px;
+        width: 11%;
+    }
+}
+
+
+/*parte 4 responsive*/
+
+@media screen and (max-width: 700px) {
+    body {
+        background-repeat: no-repeat, no-repeat;
+        background-position: 50% 10px, 50% 20%;
+        background-size: 100%, 50%;
+    }
+
+    #img1 {
+        margin-left: 17%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 10%;
+        height: 1%;
+        width: auto;
+        height: 250px;
+    }
+
+    #img2 {
+        position: absolute;
+        left: 26%;
+        top: 64%;
+        margin-left: 110px;
+        margin-top: -40px;
+    }
+
+    #img3 {
+        position: static;
+        left: 30%;
+        top: 50%;
+        margin-left: 25px;
+        margin-top: 507px;
+        width: 12%;
+    }
+}
+
+
+/*parte 5 responsive*/
+
+@media screen and (max-width: 600px) {
+    body {
+        background-repeat: no-repeat, no-repeat;
+        background-position: 50% 10px, 50% 20%;
+        background-size: 100%, 50%;
+    }
+
+    #img1 {
+        margin-left: 6%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 7%;
+        height: 1%;
+        width: auto;
+        height: 250px;
+    }
+
+    #img2 {
+        position: absolute;
+        left: 18%;
+        top: 64%;
+        margin-left: 110px;
+        margin-top: -40px;
+    }
+
+    #img3 {
+        position: static;
+        left: -75%;
+        top: 50%;
+        margin-left: 27px;
+        margin-top: 507px;
+        width: 13%;
+    }
+}
+
+
+/*parte 6 responsive*/
+@media screen and (max-width: 500px) {
+    body {
+        background-repeat: no-repeat, no-repeat;
+        background-position: 50% 10px, 50% 20%;
+        background-size: 100%, 50%;
+    }
+
+    #img1 {
+        margin-left: 3%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 5%;
+        height: 1%;
+        width: auto;
+        height: 250px;
+    }
+
+    #img2 {
+        position: absolute;
+        left: 18%;
+        top: 64%;
+        margin-left: 110px;
+        margin-top: -40px;
+    }
+    
+    #img3 {
+        position: static;
+        left: -75%;
+        top: 50%;
+        margin-left: 27px;
+        margin-top: 507px;
+        width: 13%;
+    }
+}
+

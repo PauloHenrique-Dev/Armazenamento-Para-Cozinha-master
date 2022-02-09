@@ -1,0 +1,181 @@
+#pesquisa{
+    border-radius: 10px 10px 0 0;
+    border: 1px !important;
+    margin-bottom: 6px;
+}
+
+#lupa{
+    margin: -38px 0 0px 320px;
+}
+
+#lupa::after{
+    background-color: #19c0d3;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: FontAwesome;
+    font-size: 14px;
+    content: "\f002";
+}
+
+#pesquisa:focus-within{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #19c0d3 !important;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.centralized{
+    margin: auto;
+}
+
+.list{
+    list-style: none;
+    
+}
+
+.list:hover{
+    background-color: #e5e2e2;
+}
+
+.resultado{
+    margin-top: 8px;
+    padding-left: 0;
+    background-color: white;
+}
+
+.botao_add{
+    border: none;
+    background: none;
+}
+
+li{
+    padding-left: 10px;
+}
+
+.right-align{
+    text-align: right;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit !important;
+    border-style: solid !important;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+@media (max-width: 1200px){
+    #lupa{
+        margin: -38px 0 0px 320px;
+    }
+
+    .col-sm-4{
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px){
+    #lupa{
+        margin: -38px 0 0px 310px;
+    }
+
+    .col-sm-4{
+        width: 51%
+    }
+}
+
+@media (max-width: 770px){
+    #pesquisa{
+        margin: auto;
+    }
+
+    #lupa{
+        margin: -32px 0 0px 415px;
+    }
+
+    .col-sm-4{
+        width: 67%;
+    }
+}
+
+@media (max-width: 768px){
+    #lupa{
+        margin: -32px 0 0px 300px;
+    }
+}
+
+@media (max-width: 540px){
+    #lupa{
+        margin: -32px 0 0px 295px;
+    }
+}
+
+@media (max-width: 530px){
+    #lupa{
+        margin: -32px 0 0px 285px;
+    }
+}
+
+@media (max-width: 530px){
+    #lupa{
+        margin: -32px 0 0px 275px;
+    }
+}
+
+@media (max-width: 500px){
+    #lupa{
+        margin: -32px 0 0px 260px;
+    }
+}
+
+@media (max-width: 480px){
+    #lupa{
+        margin: -32px 0 0px 253px;
+    }
+}
+
+@media (max-width: 460px){
+    #lupa{
+        margin: -32px 0 0px 240px;
+    }
+}
+
+@media (max-width: 420px){
+    #lupa{
+        margin: -32px 0 0px 220px;
+    }
+}
+
+@media (max-width: 390px){
+    #lupa{
+        margin: -32px 0 0px 190px;
+    }
+}
+
+@media (max-width: 360px){
+    #lupa{
+        margin: -32px 0 0px 180px;
+    }
+}
+
+@media (max-width: 330px){
+    #lupa{
+        margin: -32px 0 0px 160px;
+    }
+}
+
+@media (max-width: 310px){
+    #lupa{
+        margin: -32px 0 0px 150px;
+    }
+}
+
+@media (max-width: 290px){
+    #lupa{
+        margin: -32px 0 0px 120px;
+    }
+}
