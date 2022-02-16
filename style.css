@@ -1,6 +1,7 @@
 body {
-    background-image: linear-gradient(to top, #36BBA5, #fff);
+    background-image: linear-gradient(to bottom right, #36BBA5, #fff);
     background-attachment: fixed;
+    margin: 0;
 }
 
 
@@ -11,7 +12,6 @@ body {
     margin-top: 7%;
     position: absolute;
     height: auto;
-    max-width: 100%;
 }
 
 
@@ -20,41 +20,23 @@ body {
 #img2 {
     position: absolute;
     left: 37%;
-    top: 64%;
+    top: 80%;
     margin-left: 110px;
     margin-top: -40px;
+    width: 5%;
 }
 
 
 /*Marista*/
 
 #img3 {
-    margin-bottom: 1%;
-    margin-left: 1%;
+    margin-top: 535px;
+    margin-left: 10px;
     width: 7%;
 }
 
 
 /* key frame animation - Casinha*/
-
-#img2:hover {
-    animation: img2-animation 1s ease-out forwards;
-}
-
-@keyframes img2-animation {
-    0% {
-        transform: translateY(0px);
-    }
-    25% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
-}
 
 
 /*key frame fecha*/
@@ -67,35 +49,34 @@ body {
 
 @media screen and (max-width: 1200px) {
     body {
+        margin: 0px;
         background-repeat: no-repeat, no-repeat;
-        background-position: 50% 10px, 50% 20%;
+        background-attachment: fixed;
         background-size: 100%, 50%;
     }
-
     #img1 {
-        margin-left: 30%;
-        margin-right: 0%;
+        left: 0%;
+        right: 0%;
         margin-bottom: 0%;
         margin-top: 8%;
         height: 1%;
         width: auto;
         height: 250px;
     }
-
     #img2 {
         position: absolute;
-        left: 35%;
-        top: 64%;
+        left: 37%;
+        top: 80%;
         margin-left: 110px;
         margin-top: -40px;
+        width: 6%;
     }
-
     #img3 {
         position: static;
         left: 37%;
-        top: 64%;
+        top: 68%;
         margin-left: 25px;
-        margin-top: 507px;
+        margin-top: 530px;
         width: 8%;
     }
 }
@@ -106,186 +87,212 @@ body {
 @media screen and (max-width: 1100px) {
     body {
         background-repeat: no-repeat, no-repeat;
-        background-position: 50% 10px, 50% 20%;
+        background-attachment: fixed;
         background-size: 100%, 50%;
     }
-
     #img1 {
-        margin-left: 28%;
-        margin-right: 0%;
+        left: 0%;
+        right: 0%;
         margin-bottom: 0%;
         margin-top: 8%;
         height: 1%;
         width: auto;
         height: 250px;
     }
-
     #img2 {
         position: absolute;
-        left: 34%;
-        top: 64%;
+        left: 37%;
+        top: 80%;
         margin-left: 110px;
         margin-top: -40px;
+        width: 7%;
     }
-
     #img3 {
         position: static;
         left: 37%;
-        top: 64%;
+        top: 68%;
         margin-left: 25px;
-        margin-top: 507px;
-        width: 9%;
+        margin-top: 530px;
+        width: 8%;
     }
 }
 
 
 /*parte 3 responsive*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     body {
         background-repeat: no-repeat, no-repeat;
-        background-position: 50% 10px, 50% 20%;
+        background-attachment: fixed;
         background-size: 100%, 50%;
     }
-
     #img1 {
-        margin-left: 20%;
-        margin-right: 0%;
+        left: 0%;
+        right: 0%;
         margin-bottom: 0%;
-        margin-top: 10%;
-        height: 10%;
+        margin-top: 8%;
+        height: 1%;
         width: auto;
         height: 250px;
     }
-
     #img2 {
         position: absolute;
-        left: 28%;
-        top: 64%;
+        left: 37%;
+        top: 80%;
         margin-left: 110px;
         margin-top: -40px;
+        width: 7%;
     }
-
     #img3 {
         position: static;
         left: 37%;
-        top: 64%;
+        top: 68%;
         margin-left: 25px;
-        margin-top: 507px;
-        width: 11%;
+        margin-top: 530px;
+        width: 8%;
     }
 }
 
 
 /*parte 4 responsive*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     body {
         background-repeat: no-repeat, no-repeat;
-        background-position: 50% 10px, 50% 20%;
+        background-attachment: fixed;
         background-size: 100%, 50%;
     }
-
     #img1 {
-        margin-left: 17%;
-        margin-right: 0%;
+        left: -8%;
+        right: 0%;
         margin-bottom: 0%;
-        margin-top: 10%;
+        margin-top: 8%;
         height: 1%;
-        width: auto;
-        height: 250px;
+        width: 390px;
+        height: 220px;
     }
-
     #img2 {
         position: absolute;
-        left: 26%;
-        top: 64%;
-        margin-left: 110px;
+        left: 37%;
+        top: 80%;
+        margin-left: 70px;
         margin-top: -40px;
+        width: 8%;
     }
-
     #img3 {
         position: static;
-        left: 30%;
-        top: 50%;
+        left: 37%;
+        top: 68%;
         margin-left: 25px;
-        margin-top: 507px;
-        width: 12%;
+        margin-top: 545px;
+        width: 10%;
     }
 }
 
 
 /*parte 5 responsive*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     body {
         background-repeat: no-repeat, no-repeat;
-        background-position: 50% 10px, 50% 20%;
+        background-attachment: fixed;
         background-size: 100%, 50%;
     }
-
     #img1 {
-        margin-left: 6%;
-        margin-right: 0%;
+        left: -12%;
+        right: 0%;
         margin-bottom: 0%;
-        margin-top: 7%;
+        margin-top: 8%;
         height: 1%;
-        width: auto;
-        height: 250px;
+        width: 375px;
+        height: 220px;
     }
-
     #img2 {
         position: absolute;
-        left: 18%;
-        top: 64%;
-        margin-left: 110px;
+        left: 32%;
+        top: 80%;
+        margin-left: 70px;
         margin-top: -40px;
+        width: 9%;
     }
-
     #img3 {
         position: static;
-        left: -75%;
-        top: 50%;
-        margin-left: 27px;
-        margin-top: 507px;
-        width: 13%;
+        left: 37%;
+        top: 68%;
+        margin-left: 25px;
+        margin-top: 545px;
+        width: 11%;
     }
 }
 
 
 /*parte 6 responsive*/
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 600px) {
     body {
         background-repeat: no-repeat, no-repeat;
-        background-position: 50% 10px, 50% 20%;
+        background-attachment: fixed;
         background-size: 100%, 50%;
     }
-
     #img1 {
-        margin-left: 3%;
-        margin-right: 0%;
+        left: -17%;
+        right: 0%;
         margin-bottom: 0%;
-        margin-top: 5%;
+        margin-top: 8%;
         height: 1%;
-        width: auto;
-        height: 250px;
+        width: 350px;
+        height: 200px;
     }
-
     #img2 {
         position: absolute;
-        left: 18%;
-        top: 64%;
-        margin-left: 110px;
+        left: 30%;
+        top: 80%;
+        margin-left: 70px;
         margin-top: -40px;
+        width: 10%;
     }
-    
     #img3 {
         position: static;
-        left: -75%;
-        top: 50%;
-        margin-left: 27px;
-        margin-top: 507px;
-        width: 13%;
+        left: 37%;
+        top: 68%;
+        margin-left: 15px;
+        margin-top: 545px;
+        width: 14%;
     }
 }
 
+
+/*parte 7 responsive*/
+
+@media screen and (max-width: 500px) {
+    body {
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: fixed;
+        background-size: 100%, 50%;
+    }
+    #img1 {
+        left: -17%;
+        right: 0%;
+        margin-bottom: 0%;
+        margin-top: 8%;
+        height: 1%;
+        width: 350px;
+        height: 200px;
+    }
+    #img2 {
+        position: absolute;
+        left: 30%;
+        top: 80%;
+        margin-left: 70px;
+        margin-top: -40px;
+        width: 11%;
+    }
+    #img3 {
+        position: static;
+        left: 37%;
+        top: 68%;
+        margin-left: 15px;
+        margin-top: 555px;
+        width: 14%;
+    }
+}
